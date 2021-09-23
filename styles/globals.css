@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  body {
+    overflow-x: hidden;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0.9vw;
+  }
+
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #ffffff !important;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #00a69c;
+    cursor: pointer;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #00a69c;
+  }
+  .start-btn {
+    @apply px-6 py-2 bg-green-main text-lg 
+          font-semibold active:ring-green-main
+          box-border rounded-lg text-green-sub3 
+          hover:bg-green-sub3 hover:text-green-main 
+          cursor-pointer hover:border-2 border-green-main;
+  }
+  .btn {
+    @apply bg-green-main px-2 py-2 rounded-md text-green-sub3 
+    text-sm  font-bold;
+  }
+  .container {
+    @apply max-w-screen-xl w-full m-auto
+    px-2 py-4;
+  }
+  .col-flex {
+    @apply flex flex-col;
+  }
+  .gray-text-sm {
+    @apply font-dmsans font-medium 
+             text-sm text-gray-main;
+  }
+  .open-order {
+    @apply h-8 p-1 rounded-full cursor-pointer
+            hover:bg-gray-300 flex-shrink-0;
+  }
+}

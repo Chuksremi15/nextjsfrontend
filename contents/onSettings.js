@@ -1,0 +1,17 @@
+export const alegicOptions = [
+  { value: "Sulphur", label: "Sulphur" },
+  { value: "Perfumes", label: "Perfumes" },
+  { value: "Soap", label: "Soap" },
+  { value: "Fruits", label: "Fruits" },
+  { value: "Creams", label: "Creams" },
+  { value: "Dust", label: "Dust" },
+  { value: "Spices", label: "Spices" },
+  { value: "Latex", label: "Latex" },
+  { value: "Environments", label: "Environments" },
+  { value: "Food", label: "Food" },
+  { value: "Drugs", label: "Drugs" },
+  { value: "Medicines", label: "Medicines" },
+  { value: "Herbs", label: "Herbs" },
+  { value: "Vegitables", label: "Vegitables" },
+  { value: "others", label: "others..." },
+];
